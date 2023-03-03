@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron:wght@500&display=swap");
+
+body{
+    background-image: url(../src/image.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.tituloFecha{
+    font-family: 'Londrina Outline', cursive;
+    font-size: 2rem;
+    color:white
+}
+.tituloHora{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color:white;
+    letter-spacing: 3px;
+}
+/* Agregar efecto neon */
+.verde{
+    text-shadow: 0 0 5px #7bffce,
+    0 0 10px #7bffce,
+    0 0 20px #7bffce,
+    0 0 40px #7bffce,
+    0 0 60px #7bffce,
+    0 0 80px #7bffce,
+    0 0 100px #7bffce
+}
+
+#montoRecaudado{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.4rem;
+    color:white
+}
+#montoARecaudar{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    color:white
+}
+#wsp{
+    background-color: #25D366;
+    
+}
+#wspAixa{
+    background-color: #25D366;
+    margin-left: 20px;
+}
+html{
+    position:relative; 
+    min-height: 100%;
+  }
+footer {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:90px;
+    
+  }
+@media all and (max-width: 767px){
+    .centrar{
+      text-align: center;
+      
+    }
+}
