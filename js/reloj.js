@@ -1,4 +1,22 @@
+const guardarValor = () => {
 
+
+
+
+
+
+  valor =  0 ;
+
+
+
+
+
+
+
+
+
+  localStorage.setItem("Valor", parseInt(valor));
+};
 const obtenerFecha = () => {
   let fecha = new Date();
   let diasSemana = [
@@ -77,25 +95,7 @@ const cambiarMontoRecaudado = () => {
   let barraValor = (valor * 100) / 35000;
   barra.style.width = `${barraValor}%`;
 };
-const guardarValor = () => {
 
-
-
-
-
-
-  valor =  0 ;
-
-
-
-
-
-
-
-
-
-  localStorage.setItem("Valor", parseInt(valor));
-};
 setInterval(obtenerFecha, 1000);
 guardarValor();
 cambiarMontoRecaudado();
