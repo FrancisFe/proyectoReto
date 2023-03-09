@@ -5,7 +5,7 @@ const guardarValor = () => {
 
 
 
-  valor =   70 ; 
+  valor =   1011 ; 
 
 
 
